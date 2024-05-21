@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#diamond path:nth-child(1) {
+    stroke-dasharray: 278px;
+    stroke-dashoffset: 278px;
+    animation: anim-line 2s ease forwards 0.5s;
+}
+#diamond path:nth-child(2) {
+    stroke-dasharray: 278px;
+    stroke-dashoffset: 278px;
+    animation: anim-line 2s ease forwards 0.7s;
+}
+#diamond path:nth-child(3) {
+    stroke-dasharray: 232px;
+    stroke-dashoffset: 232px;
+    animation: anim-line 2s ease forwards 0.9s;
+}
+#diamond path:nth-child(4) {
+    stroke-dasharray: 232px;
+    stroke-dashoffset: 232px;
+    animation: anim-line 2s ease forwards 1.2s;
+}
+#diamond path:nth-child(5) {
+    stroke-dasharray: 878px;
+    stroke-dashoffset: 878px;
+    animation: anim-line 2s ease forwards 0.5s;
+}
+#diamond path:nth-child(6) {
+    stroke-dasharray: 1098px;
+    stroke-dashoffset: 1098px;
+    animation: anim-line 2s ease forwards 0.5s;
+}
+#diamond path:nth-child(7) {
+    stroke-dasharray: 938px;
+    stroke-dashoffset: 938px;
+    animation: anim-line 2s ease forwards 0.5s;
+}
+#diamond path:nth-child(8) {
+    stroke-dasharray: 938px;
+    stroke-dashoffset: 938px;
+    animation: anim-line 2s ease forwards 0.5s;
+}
+
+@keyframes anim-line {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
